@@ -47,6 +47,18 @@ There are three factors influencing how many applications are related to a given
 
     One would not suspect the existence of other web applications in addition to the obvious `www.example.com`, unless they know of `helpdesk.example.com` and `webmail.example.com`.
 
+4. **Enumerate Identifier-Specified Functions**
+
+   First determine its behaviour when an invalid function is specified and try to establish a way to identify when a valid function has been requested. Compile a list of common function names or cycle through the syntactic range of identifiers observed to be in use.
+
+5. ** Identify Data Entry Points**
+
+   Identify any out-of-band channels via which user-controllable or other third party data is being introduced into the application's processing. An example is a web mail application that processes and renders messages received via SMTP.
+
+6. **Identify Functionality**
+
+   Identify all the more peripheral functions and behaviour, such as the use of redirects, off-site links, error messages, and administrative and logging functions.
+
 ### Approaches to Address Issue 1 - Non-standard URLs
 
 There is no way to fully ascertain the existence of non-standard-named web applications. Being non-standard, there are no fixed criteria governing the naming convention, however there are a number of techniques that the tester can use to gain some additional insight.
