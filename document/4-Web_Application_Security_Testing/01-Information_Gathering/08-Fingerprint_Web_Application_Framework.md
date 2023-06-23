@@ -147,6 +147,10 @@ Here are some common web file extensions and associated technologies:
 - `.aspx` -- Microsoft ASP.NET
 - `.jsp` -- Java Server Pages
 
+### Naming Conventions
+
+Try to understand the naming conventions used by application developers. For example, if there are pages called `AddDocument.jsp` abd `ViewDocument.jsp`, there may also be pages called `EditDocument.jsp` and `RemoveDocument.jsp`
+
 #### Error Messages
 
 As can be seen in the following screenshot the listed file system path points to use of WordPress (`wp-content`). Also, testers should be aware that WordPress is PHP-based (`functions.php`).
