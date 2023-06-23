@@ -51,7 +51,7 @@ There are three factors influencing how many applications are related to a given
 
    First determine its behaviour when an invalid function is specified and try to establish a way to identify when a valid function has been requested. Compile a list of common function names or cycle through the syntactic range of identifiers observed to be in use.
 
-5. ** Identify Data Entry Points**
+5. **Identify Data Entry Points**
 
    Identify any out-of-band channels via which user-controllable or other third party data is being introduced into the application's processing. An example is a web mail application that processes and renders messages received via SMTP.
 
